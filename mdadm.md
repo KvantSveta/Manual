@@ -32,6 +32,8 @@ sudo mdadm -Cv /dev/md0 -l1  -n2 /dev/sda1 /dev/sdb1
 
 Проверка состояния RAID-массива
 cat /proc/mdstat
+Просмотр состояния RAID-массива в real-time
+watch cat /proc/mdstat
 
 Подробная информация о RAID-массиве
 sudo mdadm --detail /dev/md0
