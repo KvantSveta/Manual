@@ -74,6 +74,8 @@ sudo bash -c 'mdadm --detail --scan --verbose | awk "/ARRAY/ {print}" >> /etc/md
 ```bash
 Запись в /etc/fstab
 /dev/md0p1      /media     ext4    defaults    0 2
+OR
+UUID=d091bbb9-0a3c-4cea-9192-a8282ef8c36e  /media     ext4    defaults,noauto,user    0 2
 ```
 
 #### Проверка целосности RAID-массива
