@@ -32,3 +32,12 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 or
 export PATH=$PATH:/d/Go/bin
 ```
+
+**download dependencies**
+```bash
+# download src and compill static library go-rpio.a in pkg
+go get "github.com/stianeikeland/go-rpio"
+
+# only download src files
+go get -d "github.com/stianeikeland/go-rpio"
+```
