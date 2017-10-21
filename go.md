@@ -32,3 +32,16 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 or
 export PATH=$PATH:/d/Go/bin
 ```
+
+
+**add GOPATH on Linux**
+```bash
+export GOPATH=$HOME/go
+```
+
+> GOROOT must be set only when installing to a custom location
+
+**add on .zshrc**
+```bash
+export GOPATH=$HOME/go
+```
