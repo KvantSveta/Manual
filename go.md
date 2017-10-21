@@ -33,7 +33,6 @@ or
 export PATH=$PATH:/d/Go/bin
 ```
 
-
 **add GOPATH on Linux**
 ```bash
 export GOPATH=$HOME/go
@@ -44,4 +43,13 @@ export GOPATH=$HOME/go
 **add on .zshrc**
 ```bash
 export GOPATH=$HOME/go
+```
+
+**download dependencies**
+```bash
+# download src and compill static library go-rpio.a in pkg
+go get "github.com/stianeikeland/go-rpio"
+
+# only download src files
+go get -d "github.com/stianeikeland/go-rpio"
 ```
