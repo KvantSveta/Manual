@@ -21,7 +21,7 @@ sudo mv sublime_text /opt
 sudo cp /opt/sublime_text/sublime_text.desktop /usr/share/applications
 ```
 
-**change icon path in text.desktop**
+**change icon path in /usr/share/applications/sublime_text.desktop**
 ```bash
 Icon=/opt/sublime_text/Icon/32x32/sublime-text.png
 ```
