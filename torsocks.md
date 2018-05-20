@@ -3,7 +3,7 @@
 install torsocks on ubuntu 18.04
 
 ```bash
-sudo apt install torsocks
+sudo apt install tor torsocks
 ```
 
 change torrc file
