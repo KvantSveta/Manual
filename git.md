@@ -5,9 +5,12 @@
 * git commit
 
 * git branch
-git branch -d ветка_на_удаление
+
+* git branch -d ветка_на_удаление
+
 * git checkout ветка/коммит
-git checkout -b переход на новую ветку
+
+* git checkout -b переход на новую ветку
 
 * git merge ветка
 
@@ -20,6 +23,7 @@ git checkout -b переход на новую ветку
 * git pull origin
 
 * git clone ssh://user@server:~/.../project.git
-git clone @server:~/.../project.git
+
+* git clone @server:~/.../project.git
 
 * git show коммит
