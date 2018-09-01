@@ -1,29 +1,69 @@
 # Git
 
-* git add
+```bash
+git add
+```
 
-* git commit
+```bash
+git commit
+```
 
-* git branch
+```bash
+git branch
+```
 
-* git branch -d ветка_на_удаление
+```bash
+git branch -d ветка_на_удаление
+```
 
-* git checkout ветка/коммит
+```bash
+git checkout ветка/коммит
+```
 
-* git checkout -b переход на новую ветку
+```bash
+git checkout -b переход на новую ветку
+```
 
-* git merge ветка
+```bash
+git merge ветка
+```
 
-* git log --graph --pretty=short
+```bash
+git log --graph --pretty=short
+```
 
-* git fetch origin
+```bash
+git fetch origin
+```
 
-* git push origin ветка
+```bash
+git push origin ветка
+```
 
-* git pull origin
+```bash
+git pull origin
+```
 
-* git clone ssh://user@server:~/.../project.git
+```bash
+git clone ssh://user@server:~/.../project.git
+```
 
-* git clone @server:~/.../project.git
+```bash
+git clone @server:~/.../project.git
+```
 
-* git show коммит
+```bash
+git show коммит
+```
+
+удаление коммита
+
+```bash
+git reset --hard {хэш коммита, на который необходимо перейти}
+```
+
+удаление внешней ветки
+
+```bash
+git push origin --delete {branch_name}
+```
