@@ -67,3 +67,27 @@ git reset --hard {хэш коммита, на который необходим�
 ```bash
 git push origin --delete {branch_name}
 ```
+
+change the last commit message
+
+```bash
+git commit --amend -m "commit message"
+```
+
+amending the message of the most recently pushed commit
+
+```bash
+git push --force origin branch_name
+```
+
+set sublime as default git editor
+
+```bash
+git config --global core.editor "subl --wait"
+```
+
+set vscode as default git editor
+
+```bash
+git config --global core.editor "code --wait"
+```
