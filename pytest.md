@@ -120,3 +120,22 @@ def resource_setup():
 def test_1_that_needs_resource(resource_setup):
     print("test_1_that_needs_resource")
 ```
+
+run test with fixture in external python-file
+
+> conftest.py
+
+```python
+import pytest
+
+@pytest.fixture
+def obj():
+    return dict(a=1, b=2)
+```
+
+> test_e.py
+
+```python
+def test_obj(obj):
+    assert obj == {'a': 1, 'b': 2}
+```
