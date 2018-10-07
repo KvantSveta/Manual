@@ -1,6 +1,6 @@
 # pyenv
 
-install pyenv from https://github.com/pyenv/pyenv-installer
+install pyenv via [pyenv-installer](https://github.com/pyenv/pyenv-installer)
 
 ```bash
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | zsh
