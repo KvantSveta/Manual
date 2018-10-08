@@ -38,14 +38,14 @@ install python 3.7.0
 pyenv install 3.7.0
 ```
 
-create virtualenv which python 3.7.0 and .venv directory
+create virtualenv with python 3.7.0 which named venv
 
 ```bash
-pyenv virtualenv 3.7.0 .venv
+pyenv virtualenv 3.7.0 venv
 ```
 
-use .venv
+use virtualenv (venv) with python 3.7.0 for current directory
 
 ```bash
-pyenv local .venv
+pyenv local venv
 ```
